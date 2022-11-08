@@ -1,8 +1,16 @@
+import { Wrapper } from "./components";
+import HorizontalLine from "../HorizontalLine";
+import { GlobalStyle } from "../../style/GlobalStyle";
+
 const Root = () => {
   return (
-    <div>
-      <h1>Hello</h1>
-    </div>
+    <Wrapper>
+      <GlobalStyle />
+      <HorizontalLine />
+      <HorizontalLine />
+      <HorizontalLine />
+      <HorizontalLine />
+    </Wrapper>
   );
 };
 
